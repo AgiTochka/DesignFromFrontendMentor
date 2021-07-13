@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 0%);
+}
+.attribution a {
+  color: hsl(179, 62%, 43%);
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+}
+h2 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.block1 {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: 10px 0px 15px 5px hsla(202, 14%, 84%, 0.767),
+    -10px 10px 15px 5px hsla(202, 14%, 84%, 0.767);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-evenly;
+  width: 50%;
+  height: 25%;
+}
+.block11 {
+  padding: 5%;
+}
+.block1 > .block11 > div {
+  width: 80%;
+  height: 5%;
+}
+.block1 > .block11 > div > h2 {
+  color: hsl(71, 73%, 54%);
+}
+.block1 > .block11 > div > p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: hsl(218, 22%, 67%);
+}
+.block2 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 35%;
+}
+.half-block1 {
+  background-color: hsl(179, 62%, 43%);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5%;
+  border-radius: 0px 0px 0px 15px;
+  box-shadow: -10px 10px 15px 5px hsla(202, 14%, 84%, 0.767);
+}
+.half-block2 {
+  background-color: hsl(179, 47%, 52%);
+  width: 100%;
+  padding: 5%;
+  border-radius: 0px 0px 15px 0px;
+  box-shadow: 10px 10px 15px 5px hsla(202, 14%, 84%, 0.767);
+}
+.button {
+  justify-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 10px 10px;
+  background-color: hsl(71, 73%, 54%);
+  box-shadow: 0px 10px 10px 3px hsla(180, 44%, 42%, 0.815);
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 40px;
+  height: 25%;
+}
+.post_price {
+  font-size: 16px;
+  color: hsla(0, 0%, 100%, 0.747);
+  align-self: center;
+}
+.half-block2 > div{
+  width: 70%;
+}
+.half-block2 > div > p {
+  line-height: 1.5;
+  color: hsla(0, 0%, 100%, 0.747);
+}
+
