@@ -26,18 +26,30 @@ p {
   font-weight: 400;
   color: hsl(0, 0%, 100%);
 }
-
+.parent{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
 .main {
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  height: 60%;
+  border-radius: 15px 15px 0px 0px;
 }
 .block1 {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px 15px 0px 0px;
+ 
   box-shadow: 10px 0px 15px 5px hsla(202, 14%, 84%, 0.767),
     -10px 10px 15px 5px hsla(202, 14%, 84%, 0.767);
   display: flex;
